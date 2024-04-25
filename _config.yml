@@ -70,7 +70,7 @@ defaults:
 author:
   name: "Nicole Li"
   avatar: "/assets/images/icon.jpeg"
-  bio: "Developers." # Note: Markdown is allowed
+  bio: "Interest-Driven Developers." # Note: Markdown is allowed
   location: "Tokyo, Japan"
   links:
     - label: "GitHub"
