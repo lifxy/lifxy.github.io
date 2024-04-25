@@ -30,9 +30,10 @@ url: "https://lifxy.github.io" # the base hostname & protocol for your site, e.g
 github_username:  lifxy
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +54,25 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+author:
+  name: "Nicole Li"
+  avatar: "/assets/images/icon.jpeg"
+  bio: "Developers." # Note: Markdown is allowed
+  location: "Tokyo, Japan"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lifxy"
