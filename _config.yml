@@ -16,7 +16,7 @@
 title: LIF's Tech Notes
 email:
 description: 
-github_username: lifxyz
+github_username: lexafaxine
 minimal_mistakes_skin: default
 search: true
 
@@ -60,13 +60,13 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/lifxyz"
+      url: "https://github.com/lexafaxine"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/lifxyz"
+      url: "https://github.com/lexafaxine"
 
 defaults:
   # _posts
